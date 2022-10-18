@@ -1,4 +1,6 @@
-import React from 'react'
+import React from 'react';
+
+import { article, brand, cta } from './components';
 
 const App = () => {
   return (
