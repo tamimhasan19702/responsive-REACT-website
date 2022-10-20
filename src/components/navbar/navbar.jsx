@@ -7,7 +7,7 @@ import './navbar.css';
 //BEM => block element modifier
 
 
-const Menu = () => {
+const Menu = () => (
   <>
     <p><a href="#home">Home</a></p>
     <p><a href="#wgpt3">What is GPT?</a></p>
@@ -15,7 +15,7 @@ const Menu = () => {
     <p><a href="#features">Case Studies</a></p>
     <p><a href="#blog">Library</a></p>
   </>
-}
+)
 
 
 const Navbar = () => {
@@ -48,7 +48,7 @@ const Navbar = () => {
        {toggleMenu && (
         <div className="gpt3-navbar-menu-container scale-up-center">
           <div className="gpt3-navbar-menu-container-links">
-
+            <Menu />
           </div>
         </div>
        )}
