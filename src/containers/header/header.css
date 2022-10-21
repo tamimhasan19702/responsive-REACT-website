@@ -48,4 +48,38 @@
     border: 2px solid var(--color-footer);
     border-radius: 5px 0px 0px 5px;
     color: #3d6184;
+    padding: 0 1rem;
+    outline: none;
+    color: #fff;
 }
+
+
+.gpt3-header-content-input button{
+    flex: 0.6;
+    width: 100%;
+    min-height: 50px;
+    background: #ff4820;
+    border-radius: 5px 0px 0px 5px;
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 27px;
+    color: #fff;
+    outline: none;
+    cursor: pointer;
+    padding: 0 1rem;
+    border: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
