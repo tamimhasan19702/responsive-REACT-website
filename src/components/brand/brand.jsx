@@ -4,7 +4,7 @@ import './brand.css';
 
 const Brand = () => {
   return (
-   <div className="gpt3-brand section">
+   <div className="gpt3-brand section-margin">
     <div>
       <img src={google} alt="google" />
     </div>
