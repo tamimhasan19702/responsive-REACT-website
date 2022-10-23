@@ -67,23 +67,23 @@ max-width: 700px;
 }
 
 @media screen and (max-width: 650px) {
-    .gpt3__whatgpt3-feature .gpt3__features-container__feature {
+    .gpt3-whatgpt3-feature .gpt3-features-container-feature {
         flex-direction: column;
     }
 
   
-    .gpt3__whatgpt3-feature .gpt3__features-container_feature-text {
+    .gpt3-whatgpt3-feature .gpt3-features-container-feature-text {
         margin-top: 0.5rem;
     }
 
-    .gpt3__whatgpt3-heading h1 {
+    .gpt3-whatgpt3-heading h1 {
         font-size: 28px;
         line-height: 40px;
     }
 }
 
 @media screen and (max-width: 350px) {
-    .gpt3__whatgpt3-container .gpt3__features-container__feature {
+    .gpt3-whatgpt3-container .gpt3-features-container-feature {
         margin: 1rem 0;
         min-width: 100%;
     }
