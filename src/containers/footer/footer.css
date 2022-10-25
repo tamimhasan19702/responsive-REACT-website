@@ -34,3 +34,24 @@
     cursor: pointer;
     font-family: var(--font-family);
 }
+
+.gpt3-footer-btn p{
+    box-sizing: border-box;
+    font-family: var(--font-family);
+    font-size: 18px;
+    line-height: 21px;
+    color: #fff;
+    word-spacing: 2px;
+}
+
+.gpt3-footer-links{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    text-align: left;
+}
+
+
