@@ -1,7 +1,7 @@
 import React from 'react';
 import './blog.css';
 import { Article } from '../../components';
-import {blog1,blog2,blog3,blog4,blog5} from './imports';
+import {blog01,blog02,blog03,blog04,blog05} from './import.js';
 
 const Blog = () => {
   return (
@@ -12,13 +12,13 @@ We are blogging about it.</h1>
     </div>
     <div className="gpt3-blog-container">
       <div className="gpt3-blog-container-groupA">
-        <Article />
+        <Article imgUrl={blog01} date="oct 25,2022" title="GPT-3 and Open  AI is the future. Let us explore how it is?"/>
       </div>
       <div className="gpt3-blog-container-groupB">
-      <Article />
-      <Article />
-      <Article />
-      <Article />
+      <Article imgUrl={blog02} date="oct 25,2022" title="GPT-3 and Open  AI is the future. Let us explore how it is?"/>
+      <Article imgUrl={blog03} date="oct 25,2022" title="GPT-3 and Open  AI is the future. Let us explore how it is?"/>
+      <Article imgUrl={blog04} date="oct 25,2022" title="GPT-3 and Open  AI is the future. Let us explore how it is?"/>
+      <Article imgUrl={blog05} date="oct 25,2022" title="GPT-3 and Open  AI is the future. Let us explore how it is?"/>
       </div>
     </div>
    </div>
