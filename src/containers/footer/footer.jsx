@@ -16,7 +16,7 @@ const Footer = () => {
      <div className="gpt3-footer-links">
       <div className="gpt3-footer-links-logo">
         <img src={gpt3Logo} alt="Logo" />
-        <p>© 2022 GPT-3. All rights reserved. @Tamim</p>
+        <p>Crechterwoord K12 182 DK Alknjkcb, All Rights Reserved</p>
       </div>
 
       <div className="gpt3-footer-links-div">
@@ -39,6 +39,9 @@ const Footer = () => {
         <p>info@payme.net</p>
       </div>
 
+     </div>
+     <div className="gpt3-footer-copyright">
+      <p>© 2022 GPT-3. All rights reserved. @tamim</p>
      </div>
     </div>
   )
