@@ -9,7 +9,7 @@ const Feature = ({title,text}) => {
         <h1>{title}</h1>
       </div>
       <div className="gpt3-features-container-feature-text">
-        {text}
+        <p>{text}</p>
       </div>
     </div>
   )
